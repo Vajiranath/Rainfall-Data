@@ -1,0 +1,39 @@
+{
+    "Dataset": {
+        "Dataset Name": "ECAN South Rainfall Summary By Area",
+        "Data Source": "http://data.ecan.govt.nz/Catalogue/Method?MethodId=51#tab-data",
+        "Description": "The dataset consist of hourly rainfall data of different sites at Canterbury with the rainfall measure at the same hour for past 7 days",
+        "Version": "1.0"
+    },
+    "Dimensions": {
+        "Columns": [
+            "Site_x0020_Name", "Last_x0020_Sample", "Last_x0020_Hour", "RainToday",
+            "_x002D_1_x0020_Day", "_x002D_2_x0020_Day", "_x002D_3_x0020_Day", "_x002D_4_x0020_Day",
+            "_x002D_5_x0020_Day", "_x002D_6_x0020_Day", "_x002D_7_x0020_Day", "Total_x0020_Rainfall",
+            "SITE_NO", "ShortName", "Sub_text", "SiteOwner", "Location", "WGS84_Longitude", 
+            "WGS84_Latitude", "OwnerLogo"
+        ]
+    },
+    "Column Description": {
+        "Site_x0020_Name": "Name of the site used to observe the rainfall for the particular area",
+        "Last_x0020_Sample": "Date and the time where measured the rainfall in format YYYY-MM-DDTHH:MM:SS+12:00",
+        "Last_x0020_Hour": "Rainfall measured in Millimeters (mm) for the last hour",
+        "RainToday": "Rainfall measured in Millimeters (mm) for the current hour",
+        "_x002D_1_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 1 day back",
+        "_x002D_2_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 2 days back",
+        "_x002D_3_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 3 days back",
+        "_x002D_4_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 4 days back",
+        "_x002D_5_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 5 days back",
+        "_x002D_6_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 6 days back",
+        "_x002D_7_x0020_Day": "Rainfall measured in Millimeters (mm) at the same hour, 7 days back",
+        "Total_x0020_Rainfall": "Total Rainfall measured for the particular hour during last 7 days including the present day",
+        "SITE_NO": "Site number for the particular site which can be uniquely identified",
+        "ShortName": "Short name for the site",
+        "Sub_text": "Any other details if any",
+        "SiteOwner": "Owner of the data source - Canterbury Regional Council",
+        "Location": "Dataset of the region eg- S-South, N-North",
+        "WGS84_Longitude": "Longitude of the site",
+        "WGS84_Latitude": "Latitude of the site",
+        "OwnerLogo": "Logo information of the dataset owner eg- Canterbury Regional Council"
+    }
+}
