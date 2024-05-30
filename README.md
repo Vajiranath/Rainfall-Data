@@ -2,13 +2,13 @@
 Rainfall-Data is a repository that contains scripts and data for analyzing rainfall patterns. The project includes fetching, consolidating, and structuring rainfall data in JSON format using a Python Flask API, which can be used for further analysis.
 
 ## Table of Contents
-1.	Dataset and Setup
-2.	Configuration
-3.	How to Use
-4.	Project Structure
-5.	Data Description
-6.	Contributing
-7.	Acknowledgements
+    Dataset and Setup
+    Configuration
+    How to Use
+    Project Structure
+    Data Description
+    Contributing
+    Acknowledgement
 
 ## Dataset and Setup
 
@@ -168,13 +168,14 @@ The following fields are available in data/rainfall_data.json:
 
 
 
+This how it looks the 
 **data_update.log**
 
 ![image](https://github.com/Vajiranath/Rainfall-Data/assets/88283079/95b0b8ce-ceec-43a5-bc3a-b09896d4724e)
 
 
 
-## Acknowledgements
+## Acknowledgement
 
 This project was undertaken as part of the requirements for the course DATA472 in the master’s degree in applied data science at the University of Canterbury.
 
