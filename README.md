@@ -79,13 +79,16 @@ This Flask application provides API endpoints to retrieve and update rainfall da
   * Define API Endpoints:
     
 **/vsu37/update_data:** Triggers fetching data from the datasource, updates the process, and returns a success message.
-URL: http://13.239.119.236:5000/vsu37/update_data
+
+http://13.239.119.236:5000/vsu37/update_data
 
 **/vsu37/rainfall_data:** Returns existing rainfall data in JSON format.
-URL: http://13.239.119.236:5000/vsu37/rainfall_data
+
+http://13.239.119.236:5000/vsu37/rainfall_data
 
 **/vsu37/rainfall_metadata:** Returns metadata related to rainfall data.
-URL: http://13.239.119.236:5000/vsu37/rainfall_metadata
+
+http://13.239.119.236:5000/vsu37/rainfall_metadata
 
 **2.	Integrate Data Handling Functions:**
 
@@ -106,10 +109,31 @@ In a tmux session, call the endpoint /vsu37/update_data using a cronjob to run i
 ## How to Use
 
 **To get the rainfall information for the most recent hour:**
+
 http://13.239.119.236:5000/vsu37/rainfall_data
 
 **To get the metadata about the rainfall dataset:**
+
 http://13.239.119.236:5000/vsu37/rainfall_metadata
+
+
+## Project Structure
+
+Rainfall-Data/
+├── data/
+│   ├── rainfall_data.json
+│   ├── rainfall_metadata.json
+├── app.py
+├── utils.py
+├── data_update.log
+└── README.md
+
+![image](https://github.com/Vajiranath/Rainfall-Data/assets/88283079/a4455b5e-0336-4ae8-9181-edefb70b5769)
+
+
+
+
+
 
 
 
