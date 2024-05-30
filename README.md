@@ -179,11 +179,6 @@ The following fields are available in data/rainfall_data.json:
 
 **OwnerLogo:** Logo information of the dataset owner, e.g., Canterbury Regional Council.
 
-## Acknowledgement
-
-This project was undertaken as part of the requirements for the course DATA472 in the master’s degree in applied data science at the University of Canterbury.
-
-I would like to express my gratitude to our lecturer, Giulio Valentino Dalla Riva, for his extensive knowledge and guidance throughout the course. Additionally, I am grateful to all my colleagues who provided help and shared their knowledge, contributing significantly to the success of this project.
 
 
 
