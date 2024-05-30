@@ -69,6 +69,7 @@ Steps:
 
 
 **app.py**
+
 This Flask application provides API endpoints to retrieve and update rainfall data and its metadata. It integrates utility functions to handle data management, ensuring the data is current and accurate, with the app running on host 0.0.0.0 and port 5000.
 
 **Steps:**
@@ -88,10 +89,11 @@ URL: http://13.239.119.236:5000/vsu37/rainfall_metadata
 
 2.	Integrate Data Handling Functions:
 
-•	Use utility functions (util.py) to load, check, update, and manage data within the API endpoints.
+  * Use utility functions (util.py) to load, check, update, and manage data within the API endpoints.
 
 3.	Run Application:
-•	Execute the Flask app on host 0.0.0.0 and port 5000, ensuring the data update function runs once at startup for initial setup.
+   
+  * Execute the Flask app on host 0.0.0.0 and port 5000, ensuring the data update function runs once at startup for initial setup.
 
 
 
