@@ -3,17 +3,16 @@ Rainfall-Data is a repository that contains scripts and data for analyzing rainf
 
 ## Table of Contents
 
-Dataset and Setup
+* Dataset and Setup
 
-Configuration
+* Configuration
 
-How to Use
+* How to Use
 
-Project Structure
+* Project Structure
 
-Data Description
+* Data Description
 
-Acknowledgement
 
 ## Dataset and Setup
 
