@@ -75,9 +75,9 @@ This how it looks the
 **5.	Create rainfall_metadata.json:**
 * This file contains metadata about the dataset, including the specification of the columns, which helps in understanding the dataset.
   
-**DATA_FILE:** data/rainfall_data.json
+  * **DATA_FILE:** data/rainfall_data.json
 
-**METADATA_FILE:** data/rainfall_metadata.json
+  * **METADATA_FILE:** data/rainfall_metadata.json
 
 
 **app.py**
