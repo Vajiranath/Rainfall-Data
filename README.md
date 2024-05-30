@@ -41,8 +41,8 @@ Steps:
 
 1.	Download and Extract Data:
 
-*Fetch rainfall data from specified URLs (as zip format).
-*Extract JSON files from downloaded ZIP archives.
+* Fetch rainfall data from specified URLs (as zip format).
+* Extract JSON files from downloaded ZIP archives.
 *Remove the zip files after extracting.
 
 2.	Load and Structure Data:
