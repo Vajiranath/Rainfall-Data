@@ -63,8 +63,38 @@ Steps:
 **5.	Create rainfall_metadata.json:**
 * This file contains metadata about the dataset, including the specification of the columns, which helps in understanding the dataset.
   
-**DATA_FILE:** data/rainfall_data.json.
-**METADATA_FILE:** data/rainfall_metadata.json.
+**DATA_FILE:** data/rainfall_data.json
+
+**METADATA_FILE:** data/rainfall_metadata.json
+
+
+**app.py**
+This Flask application provides API endpoints to retrieve and update rainfall data and its metadata. It integrates utility functions to handle data management, ensuring the data is current and accurate, with the app running on host 0.0.0.0 and port 5000.
+
+**Steps:**
+
+1.	Initialize Flask Application:
+  * Create a Flask app instance to handle web requests.
+  * Define API Endpoints:
+    
+**/vsu37/update_data:** Triggers fetching data from the datasource, updates the process, and returns a success message.
+URL: http://13.239.119.236:5000/vsu37/update_data
+
+**/vsu37/rainfall_data:** Returns existing rainfall data in JSON format.
+URL: http://13.239.119.236:5000/vsu37/rainfall_data
+
+**/vsu37/rainfall_metadata:** Returns metadata related to rainfall data.
+URL: http://13.239.119.236:5000/vsu37/rainfall_metadata
+
+2.	Integrate Data Handling Functions:
+
+•	Use utility functions (util.py) to load, check, update, and manage data within the API endpoints.
+
+3.	Run Application:
+•	Execute the Flask app on host 0.0.0.0 and port 5000, ensuring the data update function runs once at startup for initial setup.
+
+
+
 
 
 
