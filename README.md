@@ -95,6 +95,25 @@ URL: http://13.239.119.236:5000/vsu37/rainfall_metadata
    
   * Execute the Flask app on host 0.0.0.0 and port 5000, ensuring the data update function runs once at startup for initial setup.
 
+## Configuration
+
+In a tmux session, call the endpoint /vsu37/update_data using a cronjob to run it on an hourly basis. This ensures that the data in data/rainfall_data.json is updated every hour, providing the most recent rainfall data at any given time.
+
+**Cronjob:**
+
+`30 0-23 * * * /usr/bin/curl http://13.239.119.236:5000/vsu37/update_data`
+
+## How to Use
+
+To get the rainfall information for the most recent hour:
+
+http://13.239.119.236:5000/vsu37/rainfall_data
+
+To get the metadata about the rainfall dataset:
+
+http://13.239.119.236:5000/vsu37/rainfall_metadata
+
+
 
 
 
