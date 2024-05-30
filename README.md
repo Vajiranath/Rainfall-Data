@@ -39,28 +39,26 @@ Developed to streamline the process and set up the pipeline for fetching and str
 
 Steps:
 
-1.	Download and Extract Data:
-
+**1.	Download and Extract Data:**
 * Fetch rainfall data from specified URLs (as zip format).
 * Extract JSON files from downloaded ZIP archives.
 *Remove the zip files after extracting.
 
-2.	Load and Structure Data:
+**2.	Load and Structure Data:**
+* Check for existing data and, if not found, create a new rainfall_data.json in the data directory.
+* Load the content of these files if they exist.
 
-*Check for existing data and, if not found, create a new rainfall_data.json in the data directory.
-*Load the content of these files if they exist.
+**3.	Check and Update Data:**
+* Compare newly downloaded data with existing data.
+* Update existing entries or add new entries as necessary.
+* Log the number of new and updated items into data_update.log.
 
-3.	Check and Update Data:
-*Compare newly downloaded data with existing data.
-*Update existing entries or add new entries as necessary.
-*Log the number of new and updated items into data_update.log.
+**4.	Save Updated Data:**
+* Write the updated data back to the JSON file (rainfall_data.json), preserving the format and structure.
 
-4.	Save Updated Data:
-
-*Write the updated data back to the JSON file (rainfall_data.json), preserving the format and structure.
-
-5.	Create rainfall_metadata.json:
-*This file contains metadata about the dataset, including the specification of the columns, which helps in understanding the dataset.
+**5.	Create rainfall_metadata.json:**
+* This file contains metadata about the dataset, including the specification of the columns, which helps in understanding the dataset.
+  
 **DATA_FILE:** data/rainfall_data.json
 **METADATA_FILE:** data/rainfall_metadata.json
 
