@@ -74,7 +74,7 @@ This Flask application provides API endpoints to retrieve and update rainfall da
 
 **Steps:**
 
-1.	Initialize Flask Application:
+**1.	Initialize Flask Application:**
   * Create a Flask app instance to handle web requests.
   * Define API Endpoints:
     
@@ -87,11 +87,11 @@ URL: http://13.239.119.236:5000/vsu37/rainfall_data
 **/vsu37/rainfall_metadata:** Returns metadata related to rainfall data.
 URL: http://13.239.119.236:5000/vsu37/rainfall_metadata
 
-2.	Integrate Data Handling Functions:
+**2.	Integrate Data Handling Functions:**
 
   * Use utility functions (util.py) to load, check, update, and manage data within the API endpoints.
 
-3.	Run Application:
+**3.	Run Application:**
    
   * Execute the Flask app on host 0.0.0.0 and port 5000, ensuring the data update function runs once at startup for initial setup.
 
