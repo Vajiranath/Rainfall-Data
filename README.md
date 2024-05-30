@@ -105,12 +105,10 @@ In a tmux session, call the endpoint /vsu37/update_data using a cronjob to run i
 
 ## How to Use
 
-To get the rainfall information for the most recent hour:
-
+**To get the rainfall information for the most recent hour:**
 http://13.239.119.236:5000/vsu37/rainfall_data
 
-To get the metadata about the rainfall dataset:
-
+**To get the metadata about the rainfall dataset:**
 http://13.239.119.236:5000/vsu37/rainfall_metadata
 
 
