@@ -2,6 +2,7 @@
 Rainfall-Data is a repository that contains scripts and data for analyzing rainfall patterns. The project includes fetching, consolidating, and structuring rainfall data in JSON format using a Python Flask API, which can be used for further analysis.
 
 ## Table of Contents
+
     Dataset and Setup
     Configuration
     How to Use
@@ -56,6 +57,12 @@ Steps:
 * Compare newly downloaded data with existing data.
 * Update existing entries or add new entries as necessary.
 * Log the number of new and updated items into data_update.log.
+  
+This how it looks the 
+**data_update.log**
+
+![image](https://github.com/Vajiranath/Rainfall-Data/assets/88283079/95b0b8ce-ceec-43a5-bc3a-b09896d4724e)
+
 
 **4.	Save Updated Data:**
 * Write the updated data back to the JSON file (rainfall_data.json), preserving the format and structure.
@@ -165,15 +172,6 @@ The following fields are available in data/rainfall_data.json:
 **WGS84_Latitude:** Latitude of the site.
 
 **OwnerLogo:** Logo information of the dataset owner, e.g., Canterbury Regional Council.
-
-
-
-This how it looks the 
-**data_update.log**
-
-![image](https://github.com/Vajiranath/Rainfall-Data/assets/88283079/95b0b8ce-ceec-43a5-bc3a-b09896d4724e)
-
-
 
 ## Acknowledgement
 
