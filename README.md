@@ -25,9 +25,13 @@ This dataset consists of rainfall measurements and details from different sites 
 These data are refreshed hourly and contain the rainfall details for each site.
 
 **Host IP:** 13.239.119.236
+
 **Operating System:** AWS Ubuntu
+
 **Type:** AWS EC2
+
 **RAM:** 4 GB
+
 **Disk:** 8 GB
 
 Python should be installed on the host server along with the following packages/libraries: os, json, requests, zipfile, logging, datetime.
