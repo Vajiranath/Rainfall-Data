@@ -167,25 +167,12 @@ The following fields are available in data/rainfall_data.json:
 **OwnerLogo:** Logo information of the dataset owner, e.g., Canterbury Regional Council.
 
 
+
 **data_update.log**
 
-`2024-05-27 10:26:11,370 INFO:Checking and updating data for 2024-05-27...
+![image](https://github.com/Vajiranath/Rainfall-Data/assets/88283079/95b0b8ce-ceec-43a5-bc3a-b09896d4724e)
 
-2024-05-27 10:26:11,371 INFO:Downloading data from https://data.ecan.govt.nz:443/data/51/Rainfall/Rainfall%20summary%20by%20area/JSON?Sites=SOUTH&zip=1
 
-2024-05-27 10:26:11,591 INFO:Extracting data to data
-
-2024-05-27 10:26:11,594 INFO:Downloading data from https://data.ecan.govt.nz:443/data/51/Rainfall/Rainfall%20summary%20by%20area/JSON?Sites=NORTH&zip=1
-
-2024-05-27 10:26:11,801 INFO:Extracting data to data
-
-2024-05-27 10:26:11,804 INFO:Downloaded 100 items.
-
-2024-05-27 10:26:11,804 INFO:Adding new site 314412
-
-2024-05-27 10:26:11,804 INFO:Adding new site 314411
-
-2024-05-27 10:26:11,804 INFO:Adding new site 315510`
 
 ## Acknowledgements
 
